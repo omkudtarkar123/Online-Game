@@ -4,8 +4,9 @@ from player import Player
 import pickle
 from ball import Ball
 
-server = "192.168.86.62"
+#server = "192.168.86.62"
 #server = "127.0.0.1"
+server = "0.0.0.0"
 port = 5555
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

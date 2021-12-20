@@ -18,6 +18,7 @@ class Player():
     def move(self):
         #self.x += self.vel
         self.moving_left = False
+        self.moving_right = False
         self.moving = False
         keys = pygame.key.get_pressed()
         if keys[pygame.K_LEFT]:
